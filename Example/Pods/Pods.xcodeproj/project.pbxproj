@@ -44,21 +44,21 @@
 		4149793A78009F5C897B6E672F74D751 /* Pods-LogConsole_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogConsole_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		432060BC6592F5FD24780AAAE03E9A63 /* up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "up@2x.png"; path = "LogConsole/Assets/up@2x.png"; sourceTree = "<group>"; };
 		4742B71A8B555EEE67E18F2C928AE766 /* Pods-LogConsole_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LogConsole_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		57C51C3AFD4F768E71EDBE1E77E3E6D0 /* Pods_LogConsole_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LogConsole_Example.framework; path = "Pods-LogConsole_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C51C3AFD4F768E71EDBE1E77E3E6D0 /* Pods_LogConsole_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogConsole_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE6E871AE951FCCE465418C42C41973 /* LogConsole.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LogConsole.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F2E97824F40FA6C8042C2010E69C6F5 /* LogConsole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LogConsole.modulemap; sourceTree = "<group>"; };
+		6F2E97824F40FA6C8042C2010E69C6F5 /* LogConsole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LogConsole.modulemap; sourceTree = "<group>"; };
 		78C052AC16368FA118E340F0E08346DF /* trash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trash@2x.png"; path = "LogConsole/Assets/trash@2x.png"; sourceTree = "<group>"; };
 		80A554BD10E1D03E118B3D7306AFC376 /* LogConsole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LogConsole-umbrella.h"; sourceTree = "<group>"; };
 		82E78619A89B0F01BAE532CA91043A3A /* Pods-LogConsole_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LogConsole_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		858085C23F37A7C5B2B8D3F93BDB1487 /* LogConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LogConsole.framework; path = LogConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		858085C23F37A7C5B2B8D3F93BDB1487 /* LogConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BAAB8CFF4F7235FE7D8560F2D416AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9474A996421BF7F9153313441FAF555F /* up@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "up@3x.png"; path = "LogConsole/Assets/up@3x.png"; sourceTree = "<group>"; };
 		9B38F96374022360C2D154111BB8FFA4 /* down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "down@2x.png"; path = "LogConsole/Assets/down@2x.png"; sourceTree = "<group>"; };
 		9D4319A95AD009D692C6F5C3C22FEC0E /* down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "down@3x.png"; path = "LogConsole/Assets/down@3x.png"; sourceTree = "<group>"; };
 		A04BD86D08D94576D5AB12992613F0B1 /* Pods-LogConsole_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LogConsole_Example-umbrella.h"; sourceTree = "<group>"; };
-		A25FD4677508A7659BD43690D3304861 /* Pods-LogConsole_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LogConsole_Example.modulemap"; sourceTree = "<group>"; };
+		A25FD4677508A7659BD43690D3304861 /* Pods-LogConsole_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LogConsole_Example.modulemap"; sourceTree = "<group>"; };
 		AF5BB660D4AC874C136F58F3A50A288D /* trash@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trash@3x.png"; path = "LogConsole/Assets/trash@3x.png"; sourceTree = "<group>"; };
 		B14CF7FAD608167561A85F02F3B26439 /* LogConsole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LogConsole-dummy.m"; sourceTree = "<group>"; };
 		B730DEB7DCDC93D6ABB6272AA443DEA7 /* Pods-LogConsole_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogConsole_Example-resources.sh"; sourceTree = "<group>"; };
@@ -176,7 +176,6 @@
 				4A052426E6D02B51051D2E872FF1127F /* Resources */,
 				8DAE4967B7C57E247482FC741A532BB9 /* Support Files */,
 			);
-			name = LogConsole;
 			path = LogConsole;
 			sourceTree = "<group>";
 		};
@@ -268,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -357,7 +357,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -436,7 +436,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

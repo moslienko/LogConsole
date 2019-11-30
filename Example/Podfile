@@ -1,6 +1,6 @@
 use_frameworks!
 
 target 'LogConsole_Example' do
-  pod 'LogConsole'
+  pod 'LogConsole', :git => 'https://github.com/moslienko/LogConsole.git'
 
 end

@@ -20,8 +20,8 @@ public struct Logger {
             switch self {
             case .error: return "❌[ERROR]"
             case .warning: return "⚠️[WARNING]"
-            case .info: return "💙[INFO]"
-            case .debug: return "💚[DEBUG]"
+            case .info: return "ℹ️[INFO]"
+            case .debug: return "🛠[DEBUG]"
             }
         }
         
@@ -86,9 +86,9 @@ public struct Logger {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = 5
         
-        aStr.addAttributes([NSParagraphStyleAttributeName: paragraphStyle,
-                            NSForegroundColorAttributeName: type.color],
-                           range: NSMakeRange(0, message.characters.count))
+        aStr.addAttributes([NSAttributedString.Key.paragraphStyle: paragraphStyle,
+                            NSAttributedString.Key.foregroundColor: type.color],
+                           range: NSMakeRange(0, message.count))
         return aStr
     }
     

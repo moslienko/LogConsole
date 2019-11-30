@@ -1,3 +1,12 @@
+//
+//  ConsoleView.swift
+//  LogConsole
+//
+//  Created by Pavel Moslienko on 30.11.2019.
+//  Copyright © 2019 CocoaPods. All rights reserved.
+//
+
+import Foundation
 import UIKit
 
 private class MoveToolBar: UIToolbar {
@@ -30,11 +39,17 @@ public class ConsoleView: UIView {
     // Minimum height 130
     public var height: CGFloat = Misc.ConsViewHeight
     
+    public var type: ConsoleViewType = .default
+    
     //Mark: - Struct
-    private struct Misc {
-        static let ConsViewHeight: CGFloat = 300
-        static let toolBarHeight: CGFloat = 40
-        static let minHeight: CGFloat = 130
+    public struct Misc {
+        public static let ConsViewHeight: CGFloat = 300
+        public static let toolBarHeight: CGFloat = 40
+        public static let minHeight: CGFloat = 130
+    }
+    
+    public enum ConsoleViewType {
+        case `default`, invisible
     }
     
     //MARK: - UI
@@ -42,8 +57,8 @@ public class ConsoleView: UIView {
     private lazy var hideBtn: UIButton = {
         let btn = UIButton()
         btn.imageView?.contentMode = .center
-        btn.setImage(UIImage.make(name: "down"), for: .normal)
-        btn.setImage(UIImage.make(name: "up"), for: .selected)
+        btn.setTitle("⬇️", for: .normal)
+        btn.setTitle("⬆️", for: .selected)
         btn.sizeToFit()
         btn.addTarget(self, action: #selector(hideBarClickAction), for: .touchUpInside)
         return btn
@@ -53,11 +68,11 @@ public class ConsoleView: UIView {
         let view = MoveToolBar()
         view.frame = CGRect(x: 0, y: 0, width: self.bounds.width, height: Misc.toolBarHeight)
         
-        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
         
         let btn = UIButton()
         btn.imageView?.contentMode = .center
-        btn.setImage(UIImage.make(name: "trash"), for: .normal)
+        btn.setTitle("❌", for: .normal)
         btn.addTarget(self, action: #selector(clearOutputAction), for: .touchUpInside)
         btn.sizeToFit()
         let trashBar = UIBarButtonItem(customView: btn)
@@ -142,6 +157,14 @@ public class ConsoleView: UIView {
             self.frame.size.height = UIScreen.main.bounds.height - self.frame.origin.y
             self.hideBtn.isSelected = self.frame.height == Misc.toolBarHeight
             self.outputTextView.frame.size.height = self.frame.size.height - Misc.toolBarHeight
+            
+            if self.hideBtn.isSelected {
+                self.toolBar.isHidden = self.type == .invisible
+                self.isHidden = self.type == .invisible
+            } else {
+                self.toolBar.isHidden = false
+                self.isHidden = false
+            }
         }
     }
     
